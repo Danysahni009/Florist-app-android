@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:padding="10dp"
+    tools:context="com.android.tonyvu.sc.demo.Main3Activity">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t1"
+                    android:gravity="center"
+                    android:text="Rose"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t2"
+                    android:layout_below="@id/t1"
+                    android:gravity="center"
+                    android:text="Bougainvillea"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t3"
+                    android:layout_below="@id/t2"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:text="Singapore Daisy"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t4"
+                    android:layout_below="@id/t3"
+                    android:gravity="center"
+                    android:paddingTop="50dp"
+                    android:text="Mogra"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t5"
+                    android:layout_below="@id/t4"
+                    android:gravity="center"
+                    android:paddingTop="50dp"
+                    android:text="Meyenia Erecta Alba"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t6"
+                    android:layout_below="@id/t5"
+                    android:gravity="center"
+                    android:paddingTop="80dp"
+                    android:text="Lavender"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t7"
+                    android:layout_below="@id/t6"
+                    android:gravity="center"
+                    android:paddingTop="100dp"
+                    android:text="African Marigold"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/t8"
+                    android:layout_below="@id/t7"
+                    android:gravity="center"
+                    android:paddingTop="110dp"
+                    android:text="Sunflower Minature"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/rose"
+            android:id="@+id/b1"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/bougainvillea"
+            android:id="@+id/b2"
+            android:layout_toRightOf="@id/b1"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/singaporedaisywedelia"
+            android:id="@+id/b3"
+            android:layout_below="@id/b1"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/mograjasmine"
+            android:id="@+id/b4"
+            android:layout_below="@id/b2"
+            android:layout_toRightOf="@id/b3"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/meyeniaerectaalba"
+            android:id="@+id/b5"
+            android:layout_below="@id/b3"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/lavenders"
+            android:id="@+id/b6"
+            android:layout_below="@id/b3"
+            android:layout_toRightOf="@id/b5"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/marigold"
+            android:id="@+id/b7"
+            android:layout_below="@id/b5"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/sunflower"
+            android:id="@+id/b8"
+            android:layout_below="@id/b6"
+            android:layout_toRightOf="@id/b7"
+            android:layout_marginTop="10dp"
+            android:onClick="calls"/>
+
+                </LinearLayout>
+
+                </RelativeLayout>
+
+        </ScrollView>
+
+
+
+
+</LinearLayout>
+

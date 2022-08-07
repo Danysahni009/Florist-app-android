@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.tonyvu.sc.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fuchsia"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".Main3Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main5Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Peace_lily"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Gardenia_dwarf"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Anthurium"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Anthurium_Andreanum"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".African"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Gloxinia"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Brazillian_plume"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Lunaria_Annua"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Artificial_1"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificial_2"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificial_3"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificial_4"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificiaql_5"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificial_6"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificial_7"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Artificial_8"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Rose"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Bougainvellia"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Singapore_daisy"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Mogra"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Meyenia_erecta"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Lavendar"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".African_marigold"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Sunflower_Minature"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".ShoppingCartActivity" />
+
+        <activity
+            android:name=".start"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".paynow" />
+        <activity android:name=".cod" />
+        <activity android:name=".paytm"></activity>
+    </application>
+
+</manifest>

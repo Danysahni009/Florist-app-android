@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:padding="10dp"
+    tools:context="com.android.tonyvu.sc.demo.Main3Activity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t1"
+                android:gravity="center"
+                android:text="Peace Lily"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t2"
+                android:layout_below="@id/t1"
+                android:gravity="center"
+                android:text="Gardenia Dwarf"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t3"
+                android:layout_below="@id/t2"
+                android:gravity="center"
+                android:text="Anthurium"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t4"
+                android:layout_below="@id/t3"
+                android:gravity="center"
+                android:paddingTop="50dp"
+                android:text="Anthurium Andreanum"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t5"
+                android:layout_below="@id/t4"
+                android:gravity="center"
+                android:paddingTop="50dp"
+                android:text="African Violets"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t6"
+                android:layout_below="@id/t5"
+                android:gravity="center"
+                android:paddingTop="80dp"
+                android:text="Gloxinia"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t7"
+                android:layout_below="@id/t6"
+                android:gravity="center"
+                android:paddingTop="100dp"
+                android:text="Brazilian Plume"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/t8"
+                android:layout_below="@id/t7"
+                android:gravity="center"
+                android:paddingTop="110dp"
+                android:text="Silver Dollar"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical">
+
+
+
+
+
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/peacelily"
+            android:id="@+id/i1"
+            android:onClick="call"/>
+
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/gardeniadwarf"
+            android:id="@+id/i2"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/anthurium"
+            android:id="@+id/i3"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/anthuriumandreanum"
+            android:id="@+id/i4"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/africanviolet"
+            android:id="@+id/i5"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/gloxinia"
+            android:id="@+id/i6"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/brazilianplume"
+            android:id="@+id/i7"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/silverdollar"
+            android:id="@+id/i8"
+            android:layout_marginTop="10dp"
+            android:onClick="call"/>
+
+        </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+   </ScrollView>
+
+
+
+
+</LinearLayout>

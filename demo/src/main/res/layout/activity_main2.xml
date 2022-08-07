@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDA0DD"
+    tools:context="com.android.tonyvu.sc.demo.Main2Activity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/replace">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="560dp"
+            android:background="@mipmap/welcome_basket"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buy"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/buynow"
+            android:layout_marginTop="500dp"
+            android:backgroundTint="@color/colorAccent"/>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:weightSum="1.5"
+        android:id="@+id/ll1">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:text="INDOOR"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:id="@+id/b1"
+            android:onClick="call"
+            android:layout_marginLeft="2dp"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:text="OUTDOOR"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:onClick="call"
+            android:id="@+id/b2"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:text="ARTIFICIAL"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:onClick="call"
+            android:id="@+id/b3"/>
+
+    </LinearLayout>
+
+</FrameLayout>
